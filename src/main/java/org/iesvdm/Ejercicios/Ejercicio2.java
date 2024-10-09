@@ -7,7 +7,7 @@ import org.iesvdm.transformer.Transformers;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter some numbers (all on one line, separated by spaces):");
