@@ -4,15 +4,16 @@ public class NumberAdder implements Transformer<String>
 {
     int number;
 
-    public void reset()
-    {
+    public void reset() {
         number=0;
     }
 
-    public String transform(String str)
-    {
-        number++;
-        return number+") "+str;
+//    public String transform(String str) {
+//        number++;
+//        return number+" "+str;
+//    }
+        public String transform(String input) {
+        return input;
     }
 }
 

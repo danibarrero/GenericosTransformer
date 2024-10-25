@@ -2,10 +2,8 @@ package org.iesvdm.transformer;
 
 import java.util.Scanner;
 
-public class UseJoiners1
-{
-    public static void main(String[] args)
-    {
+public class UseJoiners1 {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         LispList<Integer> ls1,ls2,ls3;
         System.out.print("Enter a list (of integers): ");

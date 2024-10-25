@@ -4,7 +4,7 @@ public class LispList<E>
 {
     private Cell<E> myList;
 
-    private LispList(Cell<E> list)
+    public LispList(Cell<E> list)
     {
         myList=list;
     }
@@ -60,12 +60,12 @@ public class LispList<E>
             return ","+l.head()+restToString(l.tail());
     }
 
-    private static class Cell <T>
+    public static class Cell <T>
     {
         T first;
         Cell<T> rest;
 
-        Cell(T h,Cell<T> t)
+        public Cell(T h, Cell<T> t)
         {
             first=h;
             rest=t;
